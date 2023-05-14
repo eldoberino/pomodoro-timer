@@ -38,7 +38,7 @@ Instructions:
 
 1. get the required HW:
 
-  - Kyrio Hourglass DIY Soldering Kit, e.g. from [here](https://www.amazon.de/-/en/Electronic-Hourglass-Flashing-Soldering-Adjustable-Green/dp/B082HP7TFX/). For about 11 EUR you get a set containing 2 kits.
+  - Kyrio Hourglass DIY Soldering Kit, e.g. from [here](https://www.amazon.de/-/en/Electronic-Hourglass-Flashing-Soldering-Adjustable-Green/dp/B082HP7TFX/). For roughly 11 EUR you get a set containing 2 kits.
   - Seeeduino XIAO: e.g. from [amazon](https://www.amazon.com/Seeeduino-Smallest-Microcontroller-Interfaces-Compatible/dp/B08CN5YSQF)
   - 15 LEDs, red (like a pomodoro/tomato), 5mm
   - 3.7V LiPo accu. The Pomodoro Timer runs at 18mA current, so even with a tiny 900mAh accu it runs for a full work week including overtime (50h)
@@ -46,7 +46,12 @@ Instructions:
 
 2. assembly / soldering of the kit
 
-  Follow the instructions, leave all components out that are part of the clock functionality:
+  Follow the instructions, leave all components out that are part of the clock functionality. Here's the updated schematics (new components in green):
+
+  ![](img/schematics.png)
+
+  Modified instructions:
+
   - step 1: R31 unused
   - step 2: C2 unused
   - step 3: C1 unused
